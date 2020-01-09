@@ -1,4 +1,39 @@
 // == Mobile Size
 @media screen and (min-width: 300px) {
-  
+  .projets {
+
+    &-image {
+      width: 100vw;
+      margin-top: 5rem;
+
+      &-pro {
+        width: 75px;
+        height: 75px;
+        border-radius: 10px;
+        margin-bottom: 0.5rem;
+        box-shadow: 0px 0px 10px 0px #656565;
+      }
+    }
+    &-container {
+      text-align: center;
+
+      &-solo {
+        margin: 3rem 0;
+        
+      }
+    }
+
+    &-title {
+      position: absolute;
+      color: rgb(38, 45, 88);
+      margin-top: -37%;
+      margin-left: 25%;
+      font-size: 1.7rem;
+
+      &-pro {
+        text-transform: uppercase;
+        margin-top: 0.4rem;
+      }
+    }
+  }
 }
