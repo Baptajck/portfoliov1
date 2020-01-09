@@ -1,0 +1,54 @@
+// == Mobile Size
+@media screen and (min-width: 300px) {
+  .container_wait {
+    background: #000;
+    height: 100vh;
+
+    &_title {
+      text-align: center;
+      padding-top: 40%;
+      font-size: 2em;
+      line-height: 4rem;
+      text-transform: uppercase;
+      letter-spacing: 1rem;
+      animation: textColor 8s ease infinite;
+    }
+
+    &_desc {
+      font-size: 1rem;
+      letter-spacing: 0;
+      animation: none;
+      color: #fff;
+      text-align: center;
+    }
+  }
+
+  @keyframes textColor {
+    0% {
+      color: #7e0fff;
+    }
+    50% {
+      color: #0fffc1;
+    }
+    100% {
+      color: #7e0fff;
+    }
+  }
+}
+
+// == Size Tablet and Desktop
+@media screen and (min-width: 768px) {
+  .container_wait {
+
+    &_title {
+      text-align: center;
+      padding-top: 20%;
+      font-size: 5em;
+      line-height: 6rem;
+    }
+
+    &_desc {
+      font-size: 1.4rem;
+    }
+  }
+}
