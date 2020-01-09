@@ -12,7 +12,7 @@ const App = () => (
   <div id="app">
     <Switch>
       <Route>
-        <Attente path="/" />
+        <Attente exact path="/portfolio" />
       </Route>
     </Switch>
   </div>
