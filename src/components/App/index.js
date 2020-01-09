@@ -4,15 +4,15 @@ import { Route, Switch } from 'react-router-dom';
 
 // == Import : local
 import './app.scss';
-// import Home from 'src/components/Home';
-import Attente from 'src/components/Attente';
+import Home from 'src/components/Home';
+// import Attente from 'src/components/Attente';
 
 // == Composant
 const App = () => (
   <div id="app">
     <Switch>
       <Route>
-        <Attente exact path="/portfolio" />
+        <Home exact path="/portfolio" />
       </Route>
     </Switch>
   </div>

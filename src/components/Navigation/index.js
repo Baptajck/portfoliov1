@@ -20,10 +20,10 @@ const Navigation = () => {
             <IoMdClose className="navigation-hamburger" />
             <div>
               <ul className="navigation-liste">
-                <li className="navigation-liste-item"><a className="navigation-liste-item-link" href="http://gamebook.tech">Présentation</a></li>
-                <li className="navigation-liste-item"><a className="navigation-liste-item-link" href="#">Formation</a></li>
-                <li className="navigation-liste-item"><a className="navigation-liste-item-link" href="#">Projets</a></li>
-                <li className="navigation-liste-item"><a className="navigation-liste-item-link" href="#">Contact</a></li>
+                <li className="navigation-liste-item"><a className="navigation-liste-item-link" href="#presentation">Présentation</a></li>
+                <li className="navigation-liste-item"><a className="navigation-liste-item-link" href="#formation">Formation</a></li>
+                <li className="navigation-liste-item"><a className="navigation-liste-item-link" href="#projets">Projets</a></li>
+                <li className="navigation-liste-item"><a className="navigation-liste-item-link" href="#contact">Contact</a></li>
               </ul>
             </div>
           </>

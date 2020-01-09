@@ -1,0 +1,22 @@
+.presentation {
+  margin: 0rem 1.2rem;
+
+  &-picture {
+    width: 90vw;
+    height: 150px;
+    border-radius: 15px;
+    margin: 3rem auto 3rem auto;
+    display: block;
+  }
+
+  &-title {
+    color: rgb(38, 45, 88);
+    font-size: 2rem;
+    margin: 1.5rem 0;
+  }
+
+  &-desc {
+    line-height: 1.5rem;
+    margin-bottom: 0.7rem;
+  }
+}
