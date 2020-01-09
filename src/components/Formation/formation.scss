@@ -1,0 +1,51 @@
+// == Mobile Size
+@media screen and (min-width: 300px) {
+  .formation {
+    text-align: center;
+    margin: 5rem 1.2rem 0;
+
+    &-image {
+      border-radius: 15%;
+      width: 20%;
+      margin-top: 2rem;
+    }
+
+    &-desc {
+      margin-bottom: 1.3rem;
+      margin-right: 1rem;
+    }
+
+    &-title {
+      color: rgb(38, 45, 88);
+      font-size: 2rem;
+      margin: 2rem 0;
+      text-align: left;
+
+      &-cours {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+        text-transform: uppercase;
+      }
+    }
+    
+    .oclock {
+      color: #0bad93;
+    }
+
+    .openclassrooms {
+      color: #7451eb;
+    }
+
+    &-liste {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      line-height: 1.3rem;
+
+      &-item {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
