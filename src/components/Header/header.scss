@@ -3,9 +3,11 @@
 
   &-title {
     font-size: 2em;
-    margin: 4rem 0 2rem 0;
+    margin-bottom: 2rem;
+    padding-top: 4rem;
     text-align: center;
     text-transform: uppercase;
+    animation: textColor 7s ease infinite;
   }
 
   &-image {
@@ -28,7 +30,7 @@
   }
 
   &-btn {
-    background: transparent;
+    background: #fff;
     margin: 2rem 0 1rem 0;
     box-shadow: none;
     border: 2px solid;
@@ -43,5 +45,17 @@
     font-size: 1.3em;
     display: inline-block;
     vertical-align: middle;
+  }
+
+  @keyframes textColor {
+    0% {
+      color: #ff0000;
+    }
+    50% {
+      color: #ffb30f;
+    }
+    100% {
+      color: #fc1d1d;
+    }
   }
 }
