@@ -1,10 +1,47 @@
 .header {
+  margin: 0rem 1.2rem;
+
+  &-title {
+    font-size: 2em;
+    margin: 4rem 0 2rem 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
 
   &-image {
-    width: 100vw;
-    height: 100vh;
+    width: 40%;
     object-fit: cover;
-    filter: sepia(50%);
-    z-index: -1;
+    border-radius: 2em;
+    margin: 2rem auto;
+    display: block;
+  }
+
+  &-desc {
+    line-height: 1.5rem;
+  }
+
+  &-group-btn {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  &-btn {
+    background: transparent;
+    margin: 2rem 0 1rem 0;
+    box-shadow: none;
+    border: 2px solid;
+    padding: .5rem 1rem;
+
+    &:last-child {
+      margin-top: 1rem; 
+    }
+  }
+
+  .icon svg {
+    font-size: 1.3em;
+    display: inline-block;
+    vertical-align: middle;
   }
 }

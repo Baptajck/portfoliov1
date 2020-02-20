@@ -1,0 +1,27 @@
+// == Mobile Size
+@media screen and (min-width: 300px) {
+  .contact {
+    margin: 5rem 1.2rem 0;
+
+    &-title {
+      color: rgb(38, 45, 88);
+      font-size: 2rem;
+      margin: 2rem 0;
+      text-align: left;
+    }
+
+    &-form-group {
+
+    }
+
+    &-form-label {
+      display: flex;
+      flex-direction: column;
+      margin-left: 5%;
+    }
+
+    &-form-input {
+      width: 50%;
+    }
+  }
+}
