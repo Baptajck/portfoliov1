@@ -1,5 +1,10 @@
+$color--red: #db1a67;
+
 .header {
-  margin: 0rem 1.2rem;
+  padding: 0rem 1.2rem;
+  background-color: #252934;
+  color: #fff;
+  height: 100vh;
 
   &-title {
     font-size: 2em;
@@ -11,7 +16,7 @@
   }
 
   &-image {
-    width: 40%;
+    width: 50%;
     object-fit: cover;
     border-radius: 2em;
     margin: 2rem auto;
@@ -19,7 +24,13 @@
   }
 
   &-desc {
+    text-align: center;
     line-height: 1.5rem;
+    font-size: 18px;
+  }
+
+  &-name {
+    color: $color--red;
   }
 
   &-group-btn {
@@ -30,11 +41,13 @@
   }
 
   &-btn {
-    background: #fff;
+    background: transparent;
     margin: 2rem 0 1rem 0;
     box-shadow: none;
     border: 2px solid;
     padding: .5rem 1rem;
+    color: #fff;
+    text-transform: uppercase;
 
     &:last-child {
       margin-top: 1rem; 
