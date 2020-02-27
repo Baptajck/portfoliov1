@@ -4,7 +4,7 @@ import './home.scss';
 // import Navigation from 'src/components/Navigation';
 import Header from 'src/components/Header';
 import Presentation from 'src/components/Presentation';
-import Formation from 'src/components/Formation';
+// import Formation from 'src/components/Formation';
 import Projets from 'src/components/Projets';
 import Contact from 'src/components/Contact';
 
@@ -13,7 +13,7 @@ const Home = () => (
     {/* <Navigation /> */}
     <Header />
     <Presentation />
-    <Formation />
+    {/* <Formation /> */}
     <Projets />
     <Contact />
   </div>

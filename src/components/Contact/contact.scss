@@ -1,27 +1,46 @@
+$color--black: #000;
+$color--white: #fff;
+$color--red: #db1a67;
+$color--gray: #252934;
+
 // == Mobile Size
 @media screen and (min-width: 300px) {
   .contact {
-    margin: 5rem 1.2rem 0;
+    margin: 5rem 0 0;
+    color: $color--white;
+    background-color: $color--gray;
+    padding: 2rem;
+
+    &-hr {
+      height: 3px;
+      background-color: $color--white;
+      width: 30%;
+      margin-bottom: 2rem;
+    }
 
     &-title {
-      color: rgb(38, 45, 88);
-      font-size: 2rem;
-      margin: 2rem 0;
-      text-align: left;
+      color: $color--white;
+      font-size: 18px;
+      margin: 1.5rem 0;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
     }
 
-    &-form-group {
-
+    &-container {
+      padding: 1rem;
     }
 
-    &-form-label {
-      display: flex;
-      flex-direction: column;
-      margin-left: 5%;
+    &-desc {
+      padding: 1rem;
+      text-align: center;
     }
 
-    &-form-input {
-      width: 50%;
+    &-link {
+      color: $color--red;
+      text-decoration: underline;
+      font-size: 16px;
+      letter-spacing: .1rem;
     }
   }
 }

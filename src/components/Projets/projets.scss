@@ -1,15 +1,15 @@
+$color--black: #000;
+$color--white: #fff;
+$color--red: #db1a67;
+
 // == Mobile Size
 @media screen and (min-width: 300px) {
   .projets {
 
     &-image {
-      width: 100vw;
-      margin-top: 5rem;
-
       &-pro {
-        width: 75px;
-        height: 75px;
-        border-radius: 10px;
+        width: 100vw;
+        height: 200px;
         margin-bottom: 0.5rem;
         box-shadow: 0px 0px 10px 0px #656565;
       }
@@ -23,17 +23,41 @@
       }
     }
 
+    &-hr {
+      height: 3px;
+      background-color: $color--black;
+      width: 30%;
+    }
+
     &-title {
-      position: absolute;
-      color: rgb(38, 45, 88);
-      margin-top: -37%;
-      margin-left: 25%;
-      font-size: 1.7rem;
+      color: $color--black;
+      font-size: 18px;
+      margin: 5rem 0 .5rem;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
 
       &-pro {
         text-transform: uppercase;
         margin-top: 0.4rem;
+        font-weight: bold;
+        font-size: 17px;
+        text-decoration: underline;
+        color: $color--red;
       }
+    }
+
+    &-lang {
+      margin-top: 1.4rem;
+      font-size: 14px;
+      font-style: italic;
+    }
+
+    &-desc {
+      margin: 1.5rem 1rem 1rem;
+      line-height: 1.5rem;
+      font-style: italic;
+      font-size: 14px;
     }
   }
 }
