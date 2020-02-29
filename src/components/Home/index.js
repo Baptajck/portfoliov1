@@ -7,6 +7,8 @@ import Presentation from 'src/components/Presentation';
 // import Formation from 'src/components/Formation';
 import Projets from 'src/components/Projets';
 import Contact from 'src/components/Contact';
+import Footer from 'src/components/Footer';
+
 
 const Home = () => (
   <div>
@@ -16,6 +18,7 @@ const Home = () => (
     {/* <Formation /> */}
     <Projets />
     <Contact />
+    <Footer />
   </div>
 );
 

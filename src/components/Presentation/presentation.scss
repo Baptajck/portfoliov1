@@ -1,9 +1,5 @@
-$color--black: #000;
-$color--white: #fff;
-$color--red: #db1a67;
+@import 'src/styles/vars';
 
-// == Mobile Size
-@media screen and (min-width: 300px) {
   .presentation {
     margin: 0rem 1.2rem;
 
@@ -19,15 +15,31 @@ $color--red: #db1a67;
       height: 3px;
       background-color: $color--black;
       width: 30%;
+
+      &-c {
+        width: 60%;
+        height: 3px;
+        background-color: $color--black;
+        margin-bottom: 2rem;
+      }
     }
 
     &-title {
       color: $color--black;
-      font-size: 18px;
+      font-size: 22px;
       margin: 1.5rem 0;
       text-align: center;
       text-transform: uppercase;
       font-weight: bold;
+    }
+
+    &-title-c {
+      color: $color--black;
+      font-size: 22px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-top: 5rem;
     }
 
     &-desc {
@@ -53,6 +65,49 @@ $color--red: #db1a67;
       text-align: center;
       background:#eee;
       margin: 1rem;
+    }
+  }
+
+
+@media screen and (min-width: 768px) {
+  .presentation {
+    &-picture {
+      width: 80%;
+    }
+
+    &-hr-c {
+      width: 32%;
+    }
+
+    &-desc {
+      margin: 0 3rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .presentation {
+    &-picture {
+      height: 380px;
+    }
+
+    &-hr {
+      width: 9%;
+
+      &-c {
+        width: 18%;
+      }
+    }
+
+    &-group {
+      padding: 0 15rem;
+    }
+
+    &-circle:hover {
+      background-color: #252934;
+      color: #fff;
+      border: none;
+      transition: .5s;
     }
   }
 }

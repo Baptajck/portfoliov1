@@ -1,10 +1,23 @@
-$color--black: #000;
-$color--white: #fff;
-$color--red: #db1a67;
-$color--gray: #252934;
+@import 'src/styles/vars';
 
 // == Mobile Size
 @media screen and (min-width: 300px) {
+  .scrollToTop {
+    transform: translate(-50%, -90%);
+    margin-left: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+
+    & > svg {
+      font-size: 3rem;
+      color: #eee;
+
+      &:hover {
+        color: $color--red;
+      }
+    }
+  }
   .contact {
     margin: 5rem 0 0;
     color: $color--white;
@@ -15,13 +28,13 @@ $color--gray: #252934;
       height: 3px;
       background-color: $color--white;
       width: 30%;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
 
     &-title {
       color: $color--white;
-      font-size: 18px;
-      margin: 1.5rem 0;
+      font-size: 22px;
+      margin: 0 0 .5rem;
       text-align: center;
       text-transform: uppercase;
       font-weight: bold;
@@ -36,11 +49,51 @@ $color--gray: #252934;
       text-align: center;
     }
 
-    &-link {
+    &-link-mail {
       color: $color--red;
       text-decoration: underline;
       font-size: 16px;
       letter-spacing: .1rem;
+    }
+    &-group-link {
+      text-align: center;
+
+      &-item {
+        margin: 0 .5rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact-hr {
+    width: 14%;
+  }
+}
+
+
+@media screen and (min-width: 1000px) {
+  .contact {
+    &-hr {
+      width: 9%;
+    }
+
+    &-link-mail:hover{
+      transition: .3s;
+      color: #00aced;
+      opacity: .8;
+    }
+
+    &-group-link-item:hover {
+      opacity: .8;
+    }
+
+    &-container {
+      font-family: Helvetica, sans-serif;
+    }
+
+    &-btn {
+      width: 4%;
     }
   }
 }

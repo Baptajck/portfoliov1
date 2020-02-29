@@ -1,26 +1,33 @@
-$color--red: #db1a67;
+@import 'src/styles/vars';
 
 .header {
   padding: 0rem 1.2rem;
-  background-color: #252934;
-  color: #fff;
+  background-color: $color--gray;
+  color: $color--white;
   height: 100vh;
+
+  &-icon > svg{
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
 
   &-title {
     font-size: 2em;
     margin-bottom: 2rem;
-    padding-top: 4rem;
+    padding-top: 6rem;
     text-align: center;
     text-transform: uppercase;
-    animation: textColor 7s ease infinite;
+    color: $color--red;
   }
 
   &-image {
-    width: 50%;
     object-fit: cover;
-    border-radius: 2em;
     margin: 2rem auto;
     display: block;
+    width: 220px;
+    border-radius: 50%;
+    height: 220px;
+    border: 2px solid #fff;
   }
 
   &-desc {
@@ -59,16 +66,54 @@ $color--red: #db1a67;
     display: inline-block;
     vertical-align: middle;
   }
+}
 
-  @keyframes textColor {
-    0% {
-      color: #ff0000;
+@media screen and (min-width: 768px) {
+  .header {
+    &-image {
+      width: 250px;
+      height: 250px;
     }
-    50% {
-      color: #ffb30f;
+
+    &-title {
+      font-size: 50px;
+      padding-top: 4rem;
     }
-    100% {
-      color: #fc1d1d;
+
+    &-desc {
+      margin: 0 7rem;
+    }
+  }
+}
+
+
+@media screen and (min-width: 1000px) {
+  .header {
+    &-image {
+      width: 270px;
+      height: 270px;
+
+      &:hover {
+        border-color: $color--red;
+        transition: .3s;
+      }
+    }
+
+    &-icon > svg{
+      margin-top: 1rem;
+    }
+
+    &-title {
+      font-size: 30px;
+    }
+
+    &-desc {
+      margin: 0 7rem;
+    }
+
+    &-btn:hover {
+      color: $color--red;
+      transition: .5s;
     }
   }
 }
