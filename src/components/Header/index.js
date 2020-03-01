@@ -1,5 +1,5 @@
 import React from 'react';
-import { IoMdDownload, IoIosEye, IoIosArrowDown } from 'react-icons/io';
+import { IoIosEye, IoIosArrowDown } from 'react-icons/io';
 
 import './header.scss';
 import couverture from './couverture_2.png';
@@ -7,7 +7,7 @@ import couverture from './couverture_2.png';
 
 const Header = () => {
   const scrollToTop = () => {
-    window.scrollTo(728, 728);
+    window.scrollTo(760.7999877929688, 760.7999877929688);
   };
   return (
     <div className="header">
@@ -18,8 +18,7 @@ const Header = () => {
       </p>
       <img src={couverture} alt="couverture" className="header-image" />
       <div className="header-group-btn">
-        <p><a href="src/components/Header/CV.pdf" className="header-link"><button type="button" className="header-btn">Voir mon CV ! <span className="icon"><IoIosEye /></span></button></a></p>
-        <p><a href="src/components/Header/CV.pdf" className="header-link" download><button type="button" className="header-btn">Télécharger mon CV ! <span className="icon"><IoMdDownload /></span></button></a></p>
+        <p><a href="https://drive.google.com/file/d/1MvXUJBosOR-BiS6_89U0e_V3K_pfTaOR/view?usp=sharing" className="header-link"><button type="button" className="header-btn">Voir mon CV ! <span className="icon"><IoIosEye /></span></button></a></p>
         <div className="header-icon animated infinite bounce" onClick={scrollToTop}><IoIosArrowDown /></div>
       </div>
     </div>
