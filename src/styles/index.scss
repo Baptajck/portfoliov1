@@ -1,6 +1,14 @@
 @import 'reset';
 @import 'vars';
 
+
 body {
   font-family: 'Oxanium', sans-serif ;
+}
+
+
+
+html {
+  scrollbar-color: #db1a67 rgba(219,26,103,.15);
+  scrollbar-width: thin;
 }

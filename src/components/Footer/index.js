@@ -9,7 +9,7 @@ const App = () => {
   const date = new Date();
   return (
     <div className="footer">
-      <p className="footer-text">&copy; {date.getFullYear()} Baptiste Parville <sup>1.0.2</sup></p>
+      <p className="footer-text">&copy; {date.getFullYear()} Baptiste Parville <sup>1.0.3</sup></p>
     </div>
   );
 };
