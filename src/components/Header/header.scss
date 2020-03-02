@@ -5,10 +5,15 @@
   background-color: $color--gray;
   color: $color--white;
 
+  &-icon {
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+  }
+
   &-icon > svg{
     font-size: 3rem;
     margin: 3rem 0;
-
   }
 
   &-title {
@@ -45,6 +50,10 @@
     flex-direction: column;
     text-align: center;
     margin-top: 2rem;
+  }
+
+  &-p {
+    margin: 2rem 0;
   }
 
   &-btn {
@@ -102,9 +111,20 @@
   .header {
     height: 100vh;
 
+    &-icon {
+      width: 20%;
+      margin: 3rem auto;
+
+      &:hover {
+        color: $color--red;
+        cursor: pointer;
+      }
+    }
+
     &-image {
       width: 270px;
       height: 270px;
+      margin-top: 5rem;
 
       &:hover {
         border-color: $color--red;
