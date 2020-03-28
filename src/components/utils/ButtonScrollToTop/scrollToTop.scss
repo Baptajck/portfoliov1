@@ -1,0 +1,35 @@
+@import 'src/styles/vars';
+
+.scrollToTop {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  width: 50px;
+  height: 50px;
+  opacity: .5;
+  transition: .1s;
+
+
+
+  & > svg {
+    font-size: 2.5rem;
+    border: 2px solid #ffb400;
+    border-radius: 50%;
+    padding: .3rem;
+    color: #ffb400;
+
+    &:hover {
+      background-color: #ffb400;
+      color: #fff;
+    }
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.scrollToTopNone {
+  display: none;
+}
+

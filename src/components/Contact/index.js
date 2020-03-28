@@ -7,17 +7,12 @@ import {
   PinterestIcon,
 } from 'react-share';
 
-import { IoIosArrowDropupCircle } from 'react-icons/io';
 
 import './contact.scss';
 
 const Contact = () => {
-  const scrollToTop = () => {
-    window.scrollTo(0, 0);
-  };
   return (
     <div className="contact" id="contact">
-      <div className="scrollToTop" onClick={scrollToTop}><IoIosArrowDropupCircle /></div>
       <h1 className="contact-title">Contact</h1>
       <hr className="contact-hr" />
       <div className="contact-container">

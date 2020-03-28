@@ -7,7 +7,7 @@ import couverture from './couverture_2.png';
 
 const Header = () => {
   const scrollToTop = () => {
-    window.scrollTo(760.7999877929688, 760.7999877929688);
+    window.scrollTo(725.5999755859375, 725.5999755859375);
   };
   return (
     <div className="header">

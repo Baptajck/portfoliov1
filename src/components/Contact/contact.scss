@@ -2,22 +2,7 @@
 
 // == Mobile Size
 @media screen and (min-width: 300px) {
-  .scrollToTop {
-    transform: translate(-50%, -90%);
-    margin-left: 50%;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
 
-    & > svg {
-      font-size: 3rem;
-      color: #eee;
-
-      &:hover {
-        color: $color--red;
-      }
-    }
-  }
   .contact {
     margin: 5rem 0 0;
     color: $color--white;

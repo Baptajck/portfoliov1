@@ -12,7 +12,7 @@ const Presentation = () => {
   // };
   return (
     <div className="presentation">
-      <img src={pictureTop} alt="Photo_du_haut" className="presentation-picture" />
+      <img src={pictureTop} alt="Photo_du_haut" className="presentation-picture"/>
       <h1 className="presentation-title">
           A propos
         <hr className="presentation-hr" />

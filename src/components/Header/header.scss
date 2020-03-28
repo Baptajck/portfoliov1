@@ -52,10 +52,6 @@
     margin-top: 2rem;
   }
 
-  &-p {
-    margin: 2rem 0;
-  }
-
   &-btn {
     background: transparent;
     margin: 2rem 0 1rem 0;
@@ -113,7 +109,7 @@
 
     &-icon {
       width: 20%;
-      margin: 3rem auto;
+      margin: 0 auto;
 
       &:hover {
         color: $color--red;
@@ -124,7 +120,6 @@
     &-image {
       width: 270px;
       height: 270px;
-      margin-top: 5rem;
 
       &:hover {
         border-color: $color--red;
@@ -143,6 +138,14 @@
     &-btn:hover {
       color: $color--red;
       transition: .5s;
+    }
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .header {
+    &-p {
+      margin: 2rem 0;
     }
   }
 }
