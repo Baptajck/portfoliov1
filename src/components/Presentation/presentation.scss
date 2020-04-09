@@ -9,13 +9,37 @@
   .presentation {
     margin: 0rem 1.2rem;
 
+    &-header {
+      &-group {
+        text-align: center;
+      }
+
+      &-btn {
+        background: transparent;
+        box-shadow: none;
+        margin: 1rem 0 1.5rem;
+        border: 2px solid;
+        padding: .5rem 1rem;
+        color: #000;
+        text-transform: uppercase;
+
+        &:hover {
+          transition: .4s;
+          border-color: $color--red;
+          color: $color--red;
+        }
+      }
+    }
+
     &-picture {
-      width: 90vw;
-      height: 150px;
-      border-radius: 15px;
-      margin: 3rem auto 3rem auto;
-      display: block;
       box-shadow: 0px 0px 10px 0px #656565;
+      object-fit: cover;
+      margin: 2rem auto 0;
+      display: block;
+      width: 220px;
+      border-radius: 50%;
+      height: 220px;
+      border: 2px solid $color--red;
     }
 
     &-hr {
@@ -51,7 +75,7 @@
 
     &-desc {
       line-height: 1.5rem;
-      margin-bottom: 0.7rem;
+      margin: 0 0.7rem 0.7rem;
     }
 
     &-group {
@@ -80,24 +104,31 @@
 @media screen and (min-width: 768px) {
   .presentation {
     &-picture {
-      width: 80%;
+      display: block;
+      width: 300px;
+      height: 300px;
+      margin: 1rem 4rem;
     }
 
+    &-header {
+      &-cont {
+        display: flex;
+      }
+    }
     &-hr-c {
       width: 32%;
     }
 
     &-desc {
-      margin: 0 3rem;
+      margin: 1rem 3rem;
+      width: 50%;
+      align-self: center;
     }
   }
 }
 
 @media screen and (min-width: 1000px) {
   .presentation {
-    &-picture {
-      height: 380px;
-    }
 
     &-hr {
       width: 9%;
@@ -120,7 +151,7 @@
     }
 
     &-desc {
-      margin: 0 10rem;
+      line-height: 1.7rem;
     }
   }
 }
