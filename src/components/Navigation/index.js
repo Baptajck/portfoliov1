@@ -7,9 +7,9 @@ import './navigation.scss';
 const Navigation = () => {
   const [state, setState] = useState(true);
 
-  function toggle() {
+  const toggle = () => {
     setState(!state);
-  }
+  };
 
   return (
     <div className="navigation">

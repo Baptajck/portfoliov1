@@ -46,13 +46,6 @@
       height: 3px;
       background-color: $color--black;
       width: 30%;
-
-      &-c {
-        width: 60%;
-        height: 3px;
-        background-color: $color--black;
-        margin-bottom: 2rem;
-      }
     }
 
     &-title {
@@ -64,39 +57,10 @@
       font-weight: bold;
     }
 
-    &-title-c {
-      color: $color--black;
-      font-size: 22px;
-      text-align: center;
-      text-transform: uppercase;
-      font-weight: bold;
-      margin-top: 5rem;
-    }
-
     &-desc {
       line-height: 1.5rem;
       margin: 0 0.7rem 0.7rem;
-    }
-
-    &-group {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-    &-circle {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      font-size: 15px;
-      color: $color--red;
-      border: 1.5px solid $color--red;
-      line-height: 120px;
-      text-align: center;
-      background:#eee;
-      margin: 1rem;
-      box-shadow: 0px 0px 2px 0px $color--red;
+      text-align: justify;
     }
   }
 
@@ -110,13 +74,8 @@
       margin: 1rem 4rem;
     }
 
-    &-header {
-      &-cont {
-        display: flex;
-      }
-    }
-    &-hr-c {
-      width: 32%;
+    &-header-cont {
+      display: flex;
     }
 
     &-desc {
@@ -129,25 +88,8 @@
 
 @media screen and (min-width: 1000px) {
   .presentation {
-
     &-hr {
       width: 9%;
-
-      &-c {
-        width: 18%;
-      }
-    }
-
-    &-group {
-      padding: 0 15rem;
-    }
-
-    &-circle:hover {
-      background-color: $color--gray;
-      color: #fff;
-      border: none;
-      transition: .5s;
-      box-shadow: 0px 0px 2px 0px #eee;
     }
 
     &-desc {

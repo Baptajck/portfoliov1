@@ -12,7 +12,7 @@ const Projets = () => (
     <p className="projets-subtitle-2">Compatible mobiles, tablettes et PC</p>
     <div className="projets-container">
       <div className="projets-container-solo">
-        <img src={gamebook} alt="" className="projets-image-pro" id="gamebook" />
+        <img src={gamebook} alt="gamebook" className="projets-image-pro" id="gamebook" />
         <div className="projets-container-solo-2">
           <h2 className="projets-title-pro"><a href="http://gamebook.tech/" rel="noopener noreferrer" target="_blank">Gamebook</a></h2>
           <p className="projets-role">Développeur Front-End, Développeur Web, Scrum Master</p>
@@ -21,7 +21,7 @@ const Projets = () => (
         </div>
       </div>
       <div className="projets-container-solo">
-        <img src={likemovie} alt="" className="projets-image-pro" id="likemovie" />
+        <img src={likemovie} alt="likemovie" className="projets-image-pro" id="likemovie" />
         <div className="projets-container-solo-2">
           <h2 className="projets-title-pro"><a href="http://likemovie.baptjack.fr/" rel="noopener noreferrer" target="_blank">Likemovie</a></h2>
           <p className="projets-role">Développeur Front-End, Développeur Web, Scrum Master, référent technique</p>

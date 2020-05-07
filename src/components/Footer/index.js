@@ -13,7 +13,7 @@ const App = () => {
     <div>
       <ButtonScrollToTop />
       <div className="footer">
-        <p className="footer-text">&copy; {date.getFullYear()} Baptiste Parville <sup>2.0.0</sup></p>
+        <p className="footer-text">&copy; {date.getFullYear()} Baptiste Parville <sup>1.5.2</sup></p>
       </div>
     </div>
   );

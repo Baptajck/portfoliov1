@@ -110,7 +110,7 @@
 
       &-2 {
         flex-direction: column;
-        width: 100%;
+        width: 50%;
         align-self: center;
       }
     }
@@ -125,7 +125,6 @@
   .projets {
     &-image {
       &-pro {
-        width: 100%;
         height: 400px;
         margin-bottom: 0;
       }

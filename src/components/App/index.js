@@ -5,7 +5,6 @@ import { Route, Switch } from 'react-router-dom';
 // == Import : local
 import './app.scss';
 import Home from 'src/components/Home';
-// import Attente from 'src/components/Attente';
 
 // == Composant
 const App = () => (

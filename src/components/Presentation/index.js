@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Skills from 'src/components/Skills';
 import './presentation.scss';
 import pictureTop from './couverture_2.png';
 
@@ -21,20 +22,7 @@ const Presentation = () => (
             Je cherche désormais à mettre mes compétences au service de votre entreprise.
         </p>
       </div>
-      <h1 className="presentation-title-c" id="competences">
-          Mes compétences
-        <hr className="presentation-hr-c" />
-      </h1>
-      <div className="presentation-group">
-        <div className="presentation-circle">HTML / CSS</div>
-        <div className="presentation-circle">Javascript</div>
-        <div className="presentation-circle">ReactJS</div>
-        <div className="presentation-circle">Redux</div>
-        <div className="presentation-circle">NodeJS</div>
-        <div className="presentation-circle">PHP</div>
-        <div className="presentation-circle">Lumen</div>
-        <div className="presentation-circle">GIT</div>
-      </div>
+      <Skills />
     </div>
   </div>
 );

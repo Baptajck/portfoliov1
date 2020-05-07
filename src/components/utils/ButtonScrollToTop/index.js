@@ -15,7 +15,7 @@ export default class ButtonScrollToTop extends Component {
     }
 
   toggleVisibility = () => {
-    if (window.pageYOffset > 1226) {
+    if (window.pageYOffset > 1200) {
       this.setState({
         isVisible: true,
       });
@@ -29,7 +29,7 @@ export default class ButtonScrollToTop extends Component {
 
   scrollToTop = () => {
     window.scrollTo({
-      top: 700,
+      top: 732,
       behavior: 'smooth',
     });
   }
