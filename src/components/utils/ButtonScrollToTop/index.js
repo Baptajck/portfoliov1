@@ -29,7 +29,8 @@ export default class ButtonScrollToTop extends Component {
 
   scrollToTop = () => {
     window.scrollTo({
-      top: 732,
+      // top: 732,
+      top: 727.2000122070312,
       behavior: 'smooth',
     });
   }

@@ -9,8 +9,8 @@ import {
 import './skills.scss';
 
 const index = () => (
-  <div>
-    <h1 className="skills-title" id="competences">
+  <section id="competences">
+    <h1 className="skills-title">
       Mes compétences
       <hr className="skills-hr" />
     </h1>
@@ -64,7 +64,7 @@ const index = () => (
         <p className="skills-desc">Tableau - Organisation - Idées - Tâches</p>
       </div>
     </div>
-    <h2 className="skills-title" id="competences">
+    <h2 className="skills-title">
       Notions :
     </h2>
     <div className="skills-group">
@@ -72,6 +72,6 @@ const index = () => (
       <p className="skills-notions">PHP</p>
       <p className="skills-notions">Lumen</p>
     </div>
-  </div>
+  </section>
 );
 export default index;
