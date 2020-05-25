@@ -30,7 +30,6 @@
     }
 
     &-desc {
-      // padding: 1rem;
       text-align: center;
       font-size: 14px;
     }
@@ -41,7 +40,6 @@
       font-size: 16px;
     }
     &-group-link {
-      // text-align: center;
       display: flex;
       justify-content: center;
       flex-direction: row;
@@ -51,13 +49,15 @@
         margin: .5rem .8rem;
         display: flex;
         align-items: center;
+        width: 15%;
+        justify-content: center;
 
         :hover {
           opacity: .7;
         }
 
         &--span {
-          margin: 0 .5rem;
+          display: none;
         }
       }
     }
@@ -65,11 +65,16 @@
 }
 
 @media screen and (min-width: 768px) {
-  .contact-hr {
-    width: 14%;
+  .contact  {
+    &-hr {
+      width: 14%;
+    }
+    &-group-link-item--span {
+      display: inline;
+      margin: 0 .5rem;
+    }
   }
 }
-
 
 @media screen and (min-width: 1000px) {
   .contact {

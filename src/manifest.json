@@ -1,0 +1,17 @@
+{
+  "short_name": "Portfolio",
+  "name": "Baptiste Parville | Portfolio",
+  "description": "Portfolio de Baptiste Parville, développeur React et NodeJS",
+  "icons": [
+    {
+      "src": "./favicon/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#db1a67",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#db1a67"
+}

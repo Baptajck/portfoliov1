@@ -16,10 +16,10 @@ const Projets = () => (
     <p className="projets-subtitle-1">Développement Web Responsive - Mobile First</p>
     <p className="projets-subtitle-2">Compatible mobiles, tablettes et PC</p>
     <div className="projets-container">
-      <div className="projets-container-solo">
+      <div className="projets-container-solo" id="gamebook">
         <picture>
           <source type="image/jpg" media="(max-width: 500px)" srcSet={`${gamebook800} 1x`} />
-          <img className="projets-image-pro" id="gamebook" srcSet={`${gamebook3200} 3200w, ${gamebook1600} 1600w`} src={gamebook1600} alt="gamebook" />
+          <img className="projets-image-pro" srcSet={`${gamebook3200} 3200w, ${gamebook1600} 1600w`} src={gamebook1600} alt="gamebook" />
         </picture>
         {/* <img src={gamebook} alt="gamebook" className="projets-image-pro" id="gamebook" /> */}
         <div className="projets-container-solo-2">
@@ -27,12 +27,16 @@ const Projets = () => (
           <p className="projets-role">Développeur Front-End, Développeur Web, Scrum Master</p>
           <p className="projets-lang">HTML, CSS, Javascript, ReactJS, NodeJS, MySQL</p>
           <p className="projets-desc">En équipe de quatre développeurs, notre projet de fin de formation se résume à reprendre la mécanique des “Livres dont vous êtes le héros” (LDVELH) pour l'adapter à l’univers Web grâce à React, tout en ajoutant une dimension plus ouverte et donc polyvalente à notre version. Les choix laissés à l'utilisateur tout au long de l'histoire lui permettent de vivre une aventure originale et personnalisée.</p>
+          <div className="projets-groupLink">
+            <a href="https://gamebook-app.netlify.app/" className="projets-groupLink-item">Site</a>
+            <a href="https://github.com/Baptajck/GameBook" className="projets-groupLink-item">Code</a>
+          </div>
         </div>
       </div>
-      <div className="projets-container-solo">
+      <div className="projets-container-solo" id="likemovie">
         <picture>
           <source type="image/jpg" media="(max-width: 500px)" srcSet={`${likemovie800} 1x`} />
-          <img className="projets-image-pro" id="likemovie" srcSet={`${likemovie3200} 3200w, ${likemovie1600} 1600w`} src={likemovie1600} alt="likemovie" />
+          <img className="projets-image-pro" srcSet={`${likemovie3200} 3200w, ${likemovie1600} 1600w`} src={likemovie1600} alt="likemovie" />
         </picture>
         {/* <img src={likemovie} alt="likemovie" className="projets-image-pro" id="likemovie" /> */}
         <div className="projets-container-solo-2">
@@ -40,6 +44,10 @@ const Projets = () => (
           <p className="projets-role">Développeur Front-End, Développeur Web, Scrum Master, référent technique</p>
           <p className="projets-lang">HTML, CSS, Javascript, ReactJS</p>
           <p className="projets-desc">En équipe de deux développeurs, nous avons voulu perfectionner notre façon de coder et pour cela, nous avons choisi un univers cinématographique ! Le moteur de recherche intégré permet de consulter un très grand nombre de films et de séries du monde entier. L'ouverture des fiches films permet, entre autre, la visualisation du réalisateur, des acteurs et de la bande annonce.</p>
+          <div className="projets-groupLink">
+            <a href="http://likemovie.baptjack.fr" className="projets-groupLink-item">Site</a>
+            <a href="https://github.com/Baptajck/likemovie" className="projets-groupLink-item">Code</a>
+          </div>
         </div>
       </div>
     </div>

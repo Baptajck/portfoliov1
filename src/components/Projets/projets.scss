@@ -1,11 +1,36 @@
 @import 'src/styles/vars';
 
   .projets {
+    &-groupLink {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
 
+      &-item {
+        border: solid 1px $color--red;
+        color: $color--red;
+        opacity: .7;
+        border-radius: 10px;
+        display: block;
+        width: 20%;
+        margin: 1rem 0;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        padding: .5rem;
+        transition: .3s;
+
+        &:hover {
+          opacity: 1;
+          border-radius: 20px;
+          width: 10%;
+          transition: .6s;
+        }
+      }
+    }
     &-image {
       &-pro {
         width: 100%;
-        // height: 200px;
         margin-bottom: 0.5rem;
         box-shadow: 0px 0px 10px 0px #656565;
         object-fit: fill;
@@ -15,7 +40,7 @@
       text-align: center;
 
       &-solo {
-        margin: 2rem 0;
+        margin: 2rem .2rem;
         
         &-2 {
           width: 100%;
@@ -89,6 +114,7 @@
     &-image {
       &-pro {
         margin-bottom: 0;
+        height: 100%;
       }
     }
     
@@ -127,9 +153,12 @@
     &-image {
       &-pro {
         width: 98.8%;
-        height: 400px;
-        margin-bottom: 0;
+        height: 100%;
       }
+    }
+
+    &-groupLink-item {
+      width: 15%;
     }
 
     &-hr {
