@@ -14,7 +14,7 @@ const Presentation = () => (
       <div className="presentation-header-cont">
         <div className="presentation-header-group">
           <img src={pictureTop} alt="Photo_de_profil" className="presentation-picture" />
-          <p className="presentation-header-p"><a href="https://drive.google.com/file/d/1MvXUJBosOR-BiS6_89U0e_V3K_pfTaOR/view?usp=sharing" className="presentation-header-link"><button type="button" className="presentation-header-btn">Voir mon CV !</button></a></p>
+          <p className="presentation-header-p"><a href="https://drive.google.com/file/d/1wAWFTyptRx57E9fn7JDPPSnw_TE5mzda/view?usp=sharing" className="presentation-header-link"><button type="button" className="presentation-header-btn">Voir mon CV !</button></a></p>
         </div>
         <p className="presentation-desc">
             Je m'appelle Baptiste Parville et ma passion pour le développement web commence un peu par hasard après quelques cours pris sur OpenClassrooms. Fort de cette découverte, je décide de changer de cap et de me lancer pleinement dans le développement web. Après 4 mois de formation intensive chez O'Clock, qui m'ont conforté dans mon idée, je me lance avec 3 de mes collègues dans un projet se voulant novateur et inédit : <a href="#gamebook" className="underline">GameBook</a>.
