@@ -7,7 +7,7 @@
 <br />
 <p align="center">
   <a href="https://www.othneildrew.com/Movie-Flex">
-    <img src="https://i.imgur.com/cLUxH7U.png" alt="Logo" width="80" height="80">
+    <img src="https://i.imgur.com/cLUxH7U.png" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">Portfolio V1</h3>
