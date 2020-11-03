@@ -6,7 +6,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://portfoliov1.baptjack.fr">
+  <a href="http://portfoliov1.baptjack.fr">
     <img src="https://i.imgur.com/cLUxH7U.png" alt="Logo" width="100" height="100">
   </a>
 
