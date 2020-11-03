@@ -16,7 +16,7 @@
     Portfolio - Baptiste Parville, développeur React et NodeJS
     <br />
     <br />
-    <a href="https://portfoliov1.baptjack.fr">Voir le site</a>
+    <a href="http://portfoliov1.baptjack.fr">Voir le site</a>
   </p>
 </p>
 
